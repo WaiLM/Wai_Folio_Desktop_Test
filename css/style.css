@@ -544,7 +544,7 @@ footer #contact {
 /* media queries */
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 230px) {
 
 nav {
   padding: 1rem 24px;
