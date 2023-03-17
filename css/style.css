@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 3px solid green;
+/* border: 3px solid green; */
   }
 
   p {
@@ -22,9 +22,9 @@
 
   h2 {
     font-family: var(--secondaryFont);
-    font-weight: 300;
+    font-weight: 600;
     color: var(--textColor);
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   h2 a {
@@ -61,6 +61,40 @@
     font-size: 18px;
     padding: 0 0 12px 0;
   }
+
+  h5 {
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: var(--textColor);
+  }
+
+  h6 {
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: var(--textColor);
+    text-align: right;
+  }
+
+  h7 {
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 2rem;
+    color: var(--textColor);
+  }
+
+  li {
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: var(--textColor);
+  }
+
 
   :root {
 
@@ -115,7 +149,7 @@
   .navLinks {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 3rem;
   }
@@ -156,15 +190,15 @@
 #hero {
   width: 100%;
   max-width: var(--max-width);
+  padding: var(--main-margin);
   margin: 0 auto;
-  padding: 2rem 4rem 6rem 4rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
 #hero .left {
-  grid-column: span 4;
-  max-width: 600px;
+  grid-column: span 5;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -173,11 +207,8 @@
 }
 
 #hero .right {
-  grid-column: span 7;
-    grid-column: span 7;
+    grid-column: span 6;
     height: auto;
-    transform: translateY(0);
-    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -224,7 +255,7 @@ button:active {
   background-color: var(--primaryColor-light);
   transition: var(--motion-1);
 }
-
+/* 
 #hero-img {
   background-image: url('../images/casestudy_trip_-1_sml.png');
   width: 100%;
@@ -382,16 +413,15 @@ main {
 
 #right-about-me {
   grid-column: span 6;
-  gap: 8rem;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: space-between;
   align-items: stretch;
 }
 
 #about-me-section ul {
   list-style: none;
-  gap: 2rem;
+
 }
 
 #about-me-section .skills {
@@ -405,6 +435,7 @@ main {
 .skills-list {
   font-family: var(--secondaryFont);
   font-size: 1rem;
+  padding-right: 1rem;
   line-height: 1.5rem;
   color: var(--textColor);
 }
@@ -420,26 +451,43 @@ footer {
   align-items: flex-end;
   background-color: var(--textColor);
   min-height: 200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.5rem;
 }
 
-footer .reverse {
-  grid-column: span 4;
-  color: white;
-}
-
-footer #contact {
+#left-contact {
   grid-column: span 6;
   display: flex;
   flex-direction: column;
+}
+
+#right-contact {
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+}
+
+.whitecopy {
+  color: white;
+}
+
+#getintouch {
+  color: white;
+  padding-bottom: 1rem;
 }
 
 .contact-list {
   padding-top: 0.5rem;
   font-family: var(--secondaryFont);
   list-style: none;
-  font-size: 1.1rem;
-  line-height: 2rem;
   color: white;
+}
+
+.logo-rev {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 1rem;
 }
 
 .wrapper-grey {
@@ -461,7 +509,7 @@ footer #contact {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  z-index: 200;
+  z-index: 250;
 }
 
 #close-btn {
