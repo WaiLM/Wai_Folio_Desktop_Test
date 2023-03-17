@@ -107,10 +107,6 @@
     }
     
    #WaiBrand {
-      height: 72px;
-      width: 15%;
-      min-width: 150px;
-      max-width: 200px;
       display: flex;
       align-items: center;
     }
