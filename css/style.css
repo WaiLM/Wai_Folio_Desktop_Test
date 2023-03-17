@@ -65,26 +65,26 @@
   h5 {
     font-family: var(--secondaryFont);
     font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
     color: var(--textColor);
   }
 
   h6 {
     font-family: var(--secondaryFont);
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: 300;
+    font-size: 0.8rem;
     line-height: 2rem;
     color: var(--textColor);
     text-align: right;
   }
 
   h7 {
-    font-family: var(--secondaryFont);
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 2rem;
+    font-family: Lato, Poppins, Helvetica, sans-serif;
+    font-weight: 500;
     color: var(--textColor);
+    font-size: 4.5rem;
+    letter-spacing: -2px;
   }
 
   li {
