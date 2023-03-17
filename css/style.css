@@ -229,7 +229,7 @@ button:active {
 }
 
 #hero-img {
-  background-image: url('../images/ABC_Hero_mockup.png');
+  background-image: url('../images/casestudy_trip_-1_sml.png');
   width: 100%;
   height: 100%;
   background-size: contain;
@@ -296,7 +296,7 @@ main {
 }
 
 .card-hero-2 {
-  background-image: url('../images/Wai_Portfolio 2023_tripal.jpg');
+  background-image: url('../images/casestudy_trip_-1_sml.png');
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -304,7 +304,7 @@ main {
 }
 
 .card-hero-3 {
-  background-image: url('../images/Wai_Portfolio 2023_studybuddy.jpg');
+  background-image: url('../images/casestudy_studybuddy3_.png');
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -508,7 +508,7 @@ footer #contact {
   transform: scale(1.2);
 }
 
-/* media queries */
+/* media queries --------------------------*/
 
 @media screen and (max-width: 1100px) {
 
@@ -521,7 +521,7 @@ footer #contact {
   }}
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 
   #hero {
     height: auto;}
@@ -549,6 +549,8 @@ footer #contact {
     font-size: 3.5rem;
     letter-spacing: -2px;
   }
+
+  
   #card {
     grid-column: span 12;
     height: auto;}
@@ -580,10 +582,10 @@ footer #contact {
     gap: 4rem;}
 }
 
-/* media queries */
+/* media queries 300 mobile--------------------------*/
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 300px) {
 
 nav {
   padding: 1rem 24px;
@@ -622,9 +624,6 @@ nav #burger {
 .section-header {
   padding: 24px;}
 
-#card {
-    grid-column: span 12;
-    height: auto;}
 
 #about-me-section {
   padding: 36px 24px;}  
