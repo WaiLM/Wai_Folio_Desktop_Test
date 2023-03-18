@@ -354,7 +354,23 @@ main {
 }
 
 .card-hero-6 {
-  background-image: url('../images/Wai_Portfolio 2023_social.jpg');
+  background-image: url('../images/casestudy_catalogues.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-hero-7 {
+  background-image: url('../images/casestudy_branding.jpg');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-hero-8 {
+  background-image: url('../images/casestudy_advertising.jpg');
   width: 100%;
   height: 100%;
   background-size: cover;
